@@ -1,0 +1,5 @@
+date,ticker,daily_sentiment_score,news_count,signal
+2026-03-01,AAPL,0.38745,2,bullish
+2026-03-01,TSLA,0.0,1,neutral
+2026-03-02,AAPL,0.4939,1,bullish
+2026-03-02,TSLA,-0.4939,1,bearish

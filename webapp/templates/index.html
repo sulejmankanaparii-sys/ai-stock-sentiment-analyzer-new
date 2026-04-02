@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>AI Stock Sentiment Analyzer</title>
+</head>
+
+<body>
+
+    <h1>📊 AI Stock Sentiment Analyzer</h1>
+
+    <div class="form-container">
+        <form id="analyze-form">
+            <input type="text" id="ticker" placeholder="Ticker (AAPL)" required>
+
+            <select id="source">
+                <option value="api">API</option>
+                <option value="csv">CSV</option>
+            </select>
+
+            <input type="date" id="start_date">
+            <input type="date" id="end_date">
+
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+
+    <div id="results" class="results-container"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

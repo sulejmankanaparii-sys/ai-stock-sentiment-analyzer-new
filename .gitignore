@@ -1,0 +1,18 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Outputs (keep repo clean)
+data/processed/
+outputs/*.png
+outputs/report.txt
+
+.env
