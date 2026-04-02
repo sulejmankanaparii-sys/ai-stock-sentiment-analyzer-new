@@ -135,6 +135,6 @@ Open in browser: http://127.0.0.1:5000
 
 ## 👤 Author
 
-Developed by Eris Kanapari
+Developed by Sulejman Kanapari
 
 Aspiring AI/ML Engineer with focus on real-world applications of NLP and data-driven decision systems.
